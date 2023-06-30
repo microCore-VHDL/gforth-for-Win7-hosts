@@ -1,0 +1,12 @@
+gforth-0.6.2 in Windows installieren (XP, Win7) sowohl 32 und 64 bit
+
+C:\Program Files (x86)\gforth sei z.B. das Installationsdirectory.
+
+In den Systemvariablen 2 Einträge vornehmen:
+
+1. den Installationspfad zu 'Path' hinzufügen.
+
+2. GFORTHPATH anlegen mit '.;C:\Program Files (x86)\gforth'
+
+Das "." ist erforderlich, damit auch tatsächlich das Directory durchsucht wird, 
+in dem das CMD-Fenster geöffnet ist.
